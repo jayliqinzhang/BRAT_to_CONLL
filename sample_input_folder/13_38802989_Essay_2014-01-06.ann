@@ -1,0 +1,41 @@
+T2	MajorClaim 856 940	De enige manier om mannen en vrouwen gelijk te stellen, is een mentaliteitswijziging
+T3	Claim 1705 1768	tot op vandaag blijft de ongelijkheid in die functies zichtbaar
+T4	Premise 1770 1842	Een vrouw aan het hoofd van een bedrijf is eerder uitzondering dan regel
+T5	Claim 1844 1929	De quota lijken dan ook een logische stap voor de gelijke rechten tussen man en vrouw
+T6	Premise 1931 1975	Ze zorgen voor gelijkheid binnen een bedrijf
+T7	Premise 1982 2039	dragen ze ook een belangrijk negatief aspect met zich mee
+T8	Premise 2041 2125	Het gaat hier dan over de zogenaamde positieve discriminatie als gevolg van de quota
+T10	Premise 2131 2196	moete de helft van de topfuncties uitgeoefend worden door vrouwen
+T11	Premise 2203 2304	op die manier gaat de functie ingevuld worden op basis van geslacht, en niet op basis van competentie
+T12	Premise 2306 2396	De vrouw die de job krijgt, heeft misschien helemaal geen verstand van haar nieuwe functie
+T14	Premise 2406 2486	de mannelijke solicitant dezelfde functie al in een ander bedrijf had uitgevoerd
+T15	Claim 2488 2531	De quota zijn te drastisch en ongenuanceerd
+T16	Premise 2536 2577	zullen kwantiteit boven kwaliteit stellen
+T17	Claim 2603 2680	grote, drastische veranderingen brengen altijd negatieve stemmen met zich mee
+T18	Premise 2682 2749	Het gelijkstellen van mannen en vrouwen is zo een grote verandering
+T20	Premise 2920 3011	er negatieve stemmen te horen zijn bij diegenen die zich goed voelen in het huidige systeem
+T22	Premise 3131 3227	Door quota in te voeren en rechten te eisen, zetten de vrouwen al grote stap richting gelijkheid
+T23	Claim 3236 3285	met quota alleen zal dit doel niet bereikt worden
+T24	Premise 3287 3336	Het zijn slechts schakeltjes in een groter geheel
+T25	Premise 3338 3484	Al die 'kleine' ingrepen, zullen uiteindelijk zorgen voor de belangrijkste verandering: de mentaliteitswijziging rond de beeldvorming over vrouwen
+T27	Premise 3582 3697	Zowel mannen als vrouwen hebben tijd nodig om aan dit nieuwe idee te wennen en hun normen en waarden bij te stellen
+A1	Stance T3 For
+A2	Stance T5 Against
+A3	Stance T15 For
+A4	Stance T17 For
+A5	Stance T23 For
+R1	supports Arg1:T4 Arg2:T3	
+R2	supports Arg1:T6 Arg2:T5	
+R3	attacks Arg1:T7 Arg2:T5	
+R4	supports Arg1:T8 Arg2:T7	
+R5	supports Arg1:T10 Arg2:T8	
+R6	supports Arg1:T11 Arg2:T10	
+R7	supports Arg1:T12 Arg2:T11	
+R8	supports Arg1:T14 Arg2:T11	
+R9	supports Arg1:T16 Arg2:T15	
+R10	supports Arg1:T18 Arg2:T17	
+R11	supports Arg1:T20 Arg2:T17	
+R12	attacks Arg1:T22 Arg2:T20	
+R13	supports Arg1:T24 Arg2:T23	
+R14	supports Arg1:T25 Arg2:T24	
+R15	supports Arg1:T27 Arg2:T25	

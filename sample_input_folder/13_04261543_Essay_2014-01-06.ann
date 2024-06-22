@@ -1,0 +1,47 @@
+T1	MajorClaim 285 341	Moet de werkloosheidsuitkering beperkt worden in de tijd
+T2	Claim 454 503	een eeuwigdurende werkloosheidsuitkering niet kan
+T3	Premise 536 585	moet er een verband zijn tussen werken en krijgen
+T4	Premise 587 652	Het is logisch dat wie niets heeft bijgedragen, ook niks ontvangt
+T5	Premise 654 776	Wel wil de partij een plan uitbouwen om werklozen in de toekomst beter te kunnen begeleiden in hun zoektocht naar een baan
+T6	Premise 783 874	wie een geschikte job weigert, verliest automatisch ook zijn of haar werkloosheidsuitkering
+T7	Premise 917 1007	Uitkeringen moeten sneller afnemen, maar wel in combinatie met begeleiding van de overheid
+T9	Claim 1040 1089	de uitkeringen de eerste maanden net hoger moeten
+T11	Premise 1166 1233	Wie langere tijd werkloos is, ontvangt een steeds lagere vergoeding
+T13	Premise 1379 1427	een betere disciplinering van werklozen nodig is
+T14	Claim 1429 1556	Groen! vindt het geen goed idee om de werkloosheidsuitkering in de toekomst te beperken en pleit voor welvaartvaste uitkeringen
+T15	Premise 1558 1634	De SP.A ten slotte wil, net als Groen!, dat uitkeringen welvaartsvast worden
+T16	Premise 1696 1775	SP.A wil niet de uitkeringen, maar wel de werkloosheid zelf beperken in de tijd
+T17	Premise 1803 1854	mag een werkloze die werk weigert, worden geschorst
+T18	Claim 2331 2397	is in België slechts 67,2 % van de 20- tot 64-jarigen aan het werk
+T19	Premise 2407 2545	is ons land ver verwijderd van de Europese werkgelegenheidsdoelstelling om 75 % van de beroepsbevolking aan het werk te krijgen tegen 2020
+T20	Premise 2617 2717	Dit kan onder andere door de uitkering te beperken tot een minimum voor wie langere tijd werkloos is
+T21	Premise 2721 2794	mensen op die manier extra te stimuleren om op zoek te gaan naar een baan
+T23	Premise 2796 2900	Het is hierbij belangrijk dat de overheid een goede en kwaliteitsvolle begeleiding per individu voorziet
+T24	Premise 2912 3008	zou de overheid in de toekomst nog strengere controles moeten uitvoeren om misbruik te voorkomen
+T25	Premise 3010 3113	Zo moet ze er bijvoorbeeld op toezien dat werklozen die geschikt werk weigeren, hun uitkering verliezen
+T27	Premise 3174 3215	misbruiken de sociale zekerheid bedreigen
+T28	Premise 3217 3326	Mensen die perfect in staat zijn om te werken, maar niet willen, moeten daar ook geen vergoeding voor krijgen
+T8	Claim 1257 1332	is een kordaat getrapt sanctiebeleid het enige antwoord op werkonwilligheid
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T2	
+R3	attacks Arg1:T5 Arg2:T4	
+R4	attacks Arg1:T6 Arg2:T5	
+R5	supports Arg1:T7 Arg2:T2	
+A1	Stance T2 For
+R6	supports Arg1:T11 Arg2:T9	
+R7	supports Arg1:T13 Arg2:T8	
+R8	supports Arg1:T15 Arg2:T14	
+R9	supports Arg1:T16 Arg2:T15	
+R10	supports Arg1:T17 Arg2:T16	
+R11	supports Arg1:T19 Arg2:T18	
+R12	supports Arg1:T20 Arg2:T19	
+R13	supports Arg1:T21 Arg2:T20	
+R14	supports Arg1:T23 Arg2:T21	
+R15	supports Arg1:T24 Arg2:T23	
+R16	supports Arg1:T25 Arg2:T24	
+R17	supports Arg1:T27 Arg2:T24	
+R18	supports Arg1:T28 Arg2:T24	
+A2	Stance T18 For
+A3	Stance T9 For
+A4	Stance T8 For
+A5	Stance T14 Against
