@@ -41,9 +41,9 @@ Using the results of above functions and make the complete indics of all the cha
 
 Run this and get the result. Be noticed that the special sysmbols string are handled exclusively according to the needs of the specific [Dutch essay argument components annotation project](https://github.com/jayliqinzhang/A-Dutch-essay-corpus-with-argument-structures-and-quality-indicators). It may requires extra adaption based on the characteristics of your text files.
 
-- `write_result()`
+- `def write_result()`
 
-WRITE the result to the file. 
+Write the results to files. 
 
 
 
